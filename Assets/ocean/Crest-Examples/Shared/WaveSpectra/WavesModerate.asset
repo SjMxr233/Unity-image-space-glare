@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33068fc021dadc04dab6e00e4ff45c00, type: 3}
+  m_Name: WavesModerate
+  m_EditorClassIdentifier: 
+  _waveDirectionVariance: 180
+  _gravityScale: 1
+  _powerLog:
+  - -4.4257426
+  - -4.2761765
+  - -3.370956
+  - -2.7461402
+  - -2.1249452
+  - -0.55460376
+  - 0.055005528
+  - 0.6012212
+  - 0.92241216
+  - 1.5629156
+  - 1.7670618
+  - -6
+  _powerDisabled: 000000000000000000000000
+  _chopScales:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  _gravityScales:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  _chop: 1.5
+  _showAdvancedControls: 0
