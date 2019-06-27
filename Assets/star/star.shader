@@ -95,19 +95,5 @@
             }
             ENDCG
         }
-		  Pass
-        {
-            CGPROGRAM
-
-            #pragma vertex vert_img
-            #pragma fragment frag
-
-            fixed4 frag(v2f_img input) : SV_Target
-            {
-                return tex2D(_MainTex, input.uv);
-            }
-
-            ENDCG
-        }
     }
 }
