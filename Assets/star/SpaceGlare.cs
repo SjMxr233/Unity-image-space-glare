@@ -61,6 +61,9 @@ public class SpaceGlare : MonoBehaviour
             RenderTexture.ReleaseTemporary(blur2);
             RenderTexture.ReleaseTemporary(star);
         }
-
+        else
+        {
+            Graphics.Blit(source, destination);
+        }
     }
 }

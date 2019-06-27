@@ -59,7 +59,7 @@
                 for (int j = 0; j < 4; j++)
                 {
                     color += saturate(tex2D(_MainTex,i.uv) * pow(_Attenuation,b*j));
-                    i.uv += _Direction*_MainTex_TexelSize.xy*b;
+                    i.uv += _Direction*_MainTex_TexelSize.xy*b*j;
                 }
 
                 return color;
